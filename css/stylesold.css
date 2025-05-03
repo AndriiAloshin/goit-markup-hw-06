@@ -315,9 +315,7 @@ body {
 
 .team-list-soc-list {
   display: flex;
-  /* padding: 0 16px; */
   gap: 24px;
-  /* padding-bottom: 32px; */
   justify-content: center;
 }
 
