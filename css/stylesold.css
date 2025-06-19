@@ -32,7 +32,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
   margin: 0;
@@ -45,7 +45,7 @@ body {
   margin: 0 auto;
 }
 
-/* ----------------HERDER-------------- */
+/* #region ----------------HERDER-------------- */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -54,7 +54,7 @@ body {
 }
 
 .header-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -83,7 +83,7 @@ body {
 }
 
 .header-menu-link.current::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -146,9 +146,9 @@ body {
   color: #404bbf;
 }
 
-/* ----------------HERDER-------------- */
+/* #endregion ----------------HERDER-------------- */
 
-/* -------------------SLOGAN---------------- */
+/* #region -------------------SLOGAN---------------- */
 .slogan {
   background-color: #2e2f42;
   /*  */
@@ -200,9 +200,9 @@ body {
   background-color: #404bbf;
 }
 
-/* -------------------SLOGAN---------------- */
+/* #endregion -------------------SLOGAN---------------- */
 
-/* -------------------FEATURE---------------- */
+/* #region -------------------FEATURE---------------- */
 .feature {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -260,9 +260,9 @@ body {
   letter-spacing: -0.02em;
   color: #434455;
 }
-/* -------------------FEATURE---------------- */
+/* #endregion -------------------FEATURE---------------- */
 
-/* -------------------TEAM---------------- */
+/* #region -------------------TEAM---------------- */
 
 .team {
   background-color: #f4f4fd;
@@ -352,9 +352,9 @@ body {
   fill: #f4f4fd;
 }
 
-/* -------------------TEAM---------------- */
+/* #endregion -------------------TEAM---------------- */
 
-/* -------------------PORTFOLIO---------------- */
+/* #region -------------------PORTFOLIO---------------- */
 .portfolio {
   padding: 120px 0;
 }
@@ -440,15 +440,16 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-/* -------------------PORTFOLIO---------------- */
+/* #endregion -------------------PORTFOLIO---------------- */
 
+/* #region -----------FOOTER------ */
 .footer {
   background-color: #2e2f42;
   /* padding-left: 156px; */
   padding: 100px 0;
 }
 .footer-link {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -584,7 +585,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Roboto" sans-serif;
+  font-family: 'Roboto' sans-serif;
   flex-direction: row;
   border: none;
   border-radius: 4px;
@@ -592,7 +593,7 @@ body {
   min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
-  font-family: "Roboto" sans-serif;
+  font-family: 'Roboto' sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -612,7 +613,9 @@ body {
   margin-left: 16px;
   fill: #fff;
 }
-/* -------------------MODAL---------------- */
+
+/* #endregion -----------FOOTER------ */
+/* #region -------------------MODAL---------------- */
 
 .backdrop {
   position: fixed;
@@ -821,7 +824,7 @@ body {
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -842,3 +845,5 @@ body {
 .modal-btn:hover {
   background-color: #404bbf;
 }
+
+/* #endregion -------MODAL---------- */

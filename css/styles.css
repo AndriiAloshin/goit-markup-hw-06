@@ -38,7 +38,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
   margin: 0;
@@ -84,7 +84,7 @@ button {
   }
 }
 
-/* HEADER */
+/* #region HEADER */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -104,7 +104,7 @@ button {
 }
 
 .header-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -173,7 +173,7 @@ button {
   }
 
   .header-menu-link.current::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -223,7 +223,10 @@ button {
     letter-spacing: 0.02em;
   }
 }
-/* mobile-minu */
+
+/* #endregion HEADER */
+
+/* #region mobile-minu */
 
 @media screen and (min-width: 768px) {
   mobile-menu {
@@ -313,6 +316,72 @@ button {
   color: #434455;
 }
 
+/* #endregion mobile-minu */
+
+/* #region -----FEATURE ----- */
+.feature {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+}
+
+.feature-title {
+}
+.feature-list {
+  /* padding-left: 156px;
+  padding-right: 156px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 24px; */
+  gap: 72px;
+}
+
+.feature-list-member {
+  /* flex-basis: calc((100% - 72px) / 4); */
+  /* border-radius: 0 0 4px 4px; */
+}
+.feature-list-card {
+  display: none;
+  /* display: flex;
+  width: 100%;
+  height: 112px;
+  background: #f4f4fd;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px; */
+}
+
+.feature-list-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  /* font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em; */
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.feature-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: #434455;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+/* #endregion -----FEATURE ----- */
+/* #region team */
+
 .team-list-soc-list {
   display: flex;
   gap: 40px;
@@ -344,3 +413,5 @@ team-list-soc-link:hover,
 .team-list-soc-link:focus {
   background-color: #404bbf;
 }
+
+/* #endregion team */
