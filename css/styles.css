@@ -452,6 +452,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
+
   /* gap: 24px; */
 }
 
@@ -520,6 +521,8 @@ button {
 @media screen and (min-width: 768px) {
   .team-list {
     gap: 64px 24px;
+    padding-left: 92px;
+    padding-right: 92px;
   }
   .team-list-item {
     flex-basis: calc((100% - 24px) / 2);
@@ -528,6 +531,8 @@ button {
 
 @media screen and (min-width: 1158px) {
   .team-list {
+    padding-left: 0;
+    padding-right: 0;
     gap: 24px;
   }
   .team-list-item {
